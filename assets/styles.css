@@ -109,6 +109,56 @@ hr {
 
 modo-de-preparo li::marker{
     color: #854632;
-    font-size: 700px;
-    
+    font-weight: 700;
+}
+
+.informacoes-nutricionais li::marker{
+    margin-bottom: 24px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border bottom: 1px solid #e3ddd7;
+    width: 100%;
+}
+tr{
+    display: flex;
+}
+
+th{
+    text-align: left;
+    margin-left: 32px;
+    font-weight: 400;
+    color: #5f564d;
+    LINE-HEIGHT: 150%;
+}
+
+td{
+padding: 16px 0;
+font-weight: 700;
+color: #854632;
+line-height: 150%;
+}
+
+tr + tr, th
+tr + tr, th{
+    padding-block: 12px;
+}
+
+{
+    tr:nth-of-type(01) th,
+    tr:nth-of-type(01) td{
+        padding-top: 12px;
+    }
+}
+
+{
+    tr:nth-of-type(04) th,
+    tr:nth-of-type(04) td{
+        border-name : none;
+    }
 }
