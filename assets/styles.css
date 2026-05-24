@@ -89,3 +89,20 @@ ol, ul {
 
 }
 
+h2{
+    font-size: 24px;
+    color: #854632;
+    line-height: 100%;
+    margin-bottom: 24px;
+}
+
+. ingredientes li::marker{
+    color: #854632;
+    font-size: 12px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e3ddd7;
+    margin: 32px 0;
+}
