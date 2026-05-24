@@ -106,3 +106,9 @@ hr {
     border-top: 1px solid #e3ddd7;
     margin: 32px 0;
 }
+
+modo-de-preparo li::marker{
+    color: #854632;
+    font-size: 700px;
+    
+}
